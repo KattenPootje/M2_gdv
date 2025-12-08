@@ -34,11 +34,11 @@ public class launcher : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-            //we vragen het Line Renderer component op en slaan deze op in een variabele zodat we er later dingen mee kunnen doen
-     _line = GetComponent<LineRenderer>();
-     //We pakken het eindpunt van de lijn en zetten deze op positie 0,0,0 (zelfde plek als het beginpunt). Hierdoor word de lijn onzichtbaar. Punt 0 is het beginpunt en punt 1 het eindpunt.
-     _line.SetPosition(1,Vector3.zero);
-     //_line.SetPosition(0,Vector3.one); zou het beginpunt aanpassen. Maar dat is niet nodig nu.
+        //we vragen het Line Renderer component op en slaan deze op in een variabele zodat we er later dingen mee kunnen doen
+        _line = GetComponent<LineRenderer>();
+        //We pakken het eindpunt van de lijn en zetten deze op positie 0,0,0 (zelfde plek als het beginpunt). Hierdoor word de lijn onzichtbaar. Punt 0 is het beginpunt en punt 1 het eindpunt.
+        _line.SetPosition(1,Vector3.zero);
+        //_line.SetPosition(0,Vector3.one); zou het beginpunt aanpassen. Maar dat is niet nodig nu.
     }
 
     // Update is called once per frame

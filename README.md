@@ -14,10 +14,17 @@ hier is de link naar mijnnn code [link](array/RandomItem.cs)
 ![lplaatje](peggle/peggle.png)
 
 
-# opdract 3.2:
+# opdract 3.1:
+video:
 ![lplaatje](peggle/Animation3.gif)
 # code:
-[Peggle.cs](peggle/game%20development%20opdracht%202/Assets/Peggle.cs)
-[bumperhit.cs](peggle/game%20development%20opdracht%202/Assets/scripts/bumperhit.cs)
+[BumperHit.cs](peggle/game%20development%20opdracht%202/Assets/BumperHit.cs)
 [launcher.cs](peggle/game%20development%20opdracht%202/Assets/scripts/launcher.cs)
+[ScoreManager.cs](peggle/game%20development%20opdracht%202/Assets/scripts/ScoreManager.cs)
+
+
+# opdract 3.2:
+video:
+![lplaatje](peggle/Animation4.gif)
+# code:
 [ScoreManager.cs](peggle/game%20development%20opdracht%202/Assets/scripts/ScoreManager.cs)

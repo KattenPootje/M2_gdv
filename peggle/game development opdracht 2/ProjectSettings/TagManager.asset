@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - bumper1
+  - Ball
   layers:
   - Default
   - TransparentFX
