@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 3398074200646375083}
   - component: {fileID: 6315728358351464112}
   - component: {fileID: 4409584088172045150}
-  - component: {fileID: 442456515930115657}
   - component: {fileID: -1227557589392978774}
+  - component: {fileID: 5139622784596970737}
   m_Layer: 0
   m_Name: bumper 1
   m_TagString: bumper1
@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
   m_LocalPosition: {x: 0, y: 3.91, z: -3.31}
-  m_LocalScale: {x: 0.4589168, y: 0.966901, z: 0.4589168}
+  m_LocalScale: {x: 0.8, y: 0.966901, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -91,7 +91,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &442456515930115657
+--- !u!114 &-1227557589392978774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3149613296995709054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9f254aeee9ba947a24b8cd9dbd6074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  scoreValue: 100
+  hitsToDestroy: 3
+  pointsPerHit: 10
+--- !u!136 &5139622784596970737
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,21 +126,6 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5000001
-  m_Height: 2
+  m_Height: 2.8
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &-1227557589392978774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3149613296995709054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b9f254aeee9ba947a24b8cd9dbd6074, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  scoreValue: 100
-  hitsToDestroy: 3
-  pointsPerHit: 10
