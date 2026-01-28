@@ -33,3 +33,10 @@ video:
 # ui:
 video:
 ![lplaatje](peggle/Animation5.gif)
+
+
+
+# extra features:
+het is in 3d
+
+het kanon word bestuurd met het toetsenbord
