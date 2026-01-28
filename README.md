@@ -28,3 +28,8 @@ video:
 ![lplaatje](peggle/Animation4.gif)
 # code:
 [ScoreManager.cs](peggle/game%20development%20opdracht%202/Assets/scripts/ScoreManager.cs)
+
+
+# ui:
+video:
+![lplaatje](peggle/Animation5.gif)
